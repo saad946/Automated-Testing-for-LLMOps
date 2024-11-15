@@ -4,6 +4,7 @@ from langchain.schema.output_parser   import StrOutputParser
 
 delimiter = "####"
 
+
 quiz_bank = """1. Subject: Leonardo DaVinci
    Categories: Art, Science
    Facts:
