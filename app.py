@@ -2,6 +2,7 @@ from langchain.prompts                import ChatPromptTemplate
 from langchain.chat_models            import ChatOpenAI
 from langchain.schema.output_parser   import StrOutputParser
 
+
 delimiter = "####"
 
 quiz_bank = """1. Subject: Leonardo DaVinci
