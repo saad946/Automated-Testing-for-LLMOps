@@ -60,7 +60,7 @@ def test_science_quiz():
       expected_subjects)
 
 def test_geography_quiz():
-  question  = "Generate a quiz about polo alto."
+  question  = "Generate a quiz about geography."
   expected_subjects = ["paris", "france", "louvre"]
   eval_expected_words(
       system_message,
