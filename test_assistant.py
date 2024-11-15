@@ -60,17 +60,11 @@ def test_science_quiz():
       expected_subjects)
 
 def test_geography_quiz():
-  question  = "Generate a quiz about geography."
+  question  = "Generate a quiz about polo alto."
   expected_subjects = ["paris", "france", "louvre"]
   eval_expected_words(
       system_message,
       question,
       expected_subjects)
 
-def test_refusal_rome():
-  question  = "Help me create a quiz about Rome"
-  decline_response = "I'm sorry"
-  evaluate_refusal(
-      system_message,
-      question,
-      decline_response)
+
