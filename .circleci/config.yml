@@ -35,7 +35,7 @@ workflows:
             - dl-ai-courses
   report-evals:
     when:
-      equal: [ report, << pipeline.parameters.eval-mode >> ]
+      equal: [ commit, << pipeline.parameters.eval-mode >> ]
     jobs:
       - store-eval-artifacts:
           context:
